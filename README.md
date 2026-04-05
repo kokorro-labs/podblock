@@ -26,10 +26,10 @@ make uninstall
 
 ## Configuration
 
-Set your preferred microphone via environment variable (default: `DJI`):
+Set your preferred microphone via environment variable:
 
 ```bash
-PODBLOCK_PREFERRED_INPUT="DJI"
+PODBLOCK_PREFERRED_INPUT="Your Mic Name"
 ```
 
 The value is matched case-insensitively as a substring against device names. Edit `LaunchAgent/com.local.podblock.plist` to change it permanently.
